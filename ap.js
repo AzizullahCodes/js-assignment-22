@@ -297,18 +297,18 @@
 // Math.random();
 // game
 // --- ans ---------
-// let ranodm1 = Math.random();
-// ranodm1 = ranodm1 * 10;
-// ranodm1 = Math.floor(ranodm1);
-// console.log(ranodm1);
-// let ranodm2 = Math.random();
-// ranodm2 = ranodm2 * 15;
-// ranodm2 = Math.floor(ranodm2);
-// console.log(ranodm2)
-// let userAnswer = prompt(`what is random1 * random2?`);
-// userAnswer = Number(userAnswer);
-// if(userAnswer === ranodm1 * ranodm2){console.log('correct')}
-// else{console.log('wrong')}
+ let ranodm1 = Math.random();
+ ranodm1 = ranodm1 * 10;
+ ranodm1 = Math.floor(ranodm1);
+ console.log(ranodm1);
+ let ranodm2 = Math.random();
+ ranodm2 = ranodm2 * 15;
+ ranodm2 = Math.floor(ranodm2);
+ console.log(ranodm2)
+ let userAnswer = prompt(`what is random1 * random2?`);
+ userAnswer = Number(userAnswer);
+ if(userAnswer === ranodm1 * ranodm2){console.log('correct')}
+ else{console.log('wrong')}
 // _____________________________________________________________________
 // ques no 28
 // Guess the Number Game (Basic)
@@ -376,45 +376,40 @@
 //    console.log(password)
 // _____________________________________________________________________
 // ques no 31 
-// Math.random();
-// game
+// Task 1: Find the largest of three numbers
 // --- ans ---------
+// let a = 10;
+// let b = 25;
+// let c = 15;
+// let max = Math.max(a,b,c);
+// console.log('The largest number is:',max)
+// _____________________________________________________________________
+// ques no 32 
+// : Find the largest in an array
+// let numbers = [3, 9, 1, 20, 6];
+// --- ans ---------
+// let numbers = [3,9,1,20,6];
+//    let max = Math.max(...numbers);
+//    console.log(max)
+// _____________________________________________________________________
+// ques no 33
+// Take 5 numbers from user and find the largest
+// --- ans ---------
+// let number1 = prompt('enter number 1');
+// let number2 = prompt('enter number 2');
+// let number3 = prompt('enter number 3');
+// let number4 = prompt('enter number 4');
+// let number5 = prompt('enter number 5');
+// let numbers = [number1,number2,number3,number4,number5];
+// let max = Math.max(...numbers);
+// console.log(max)
 
 // _____________________________________________________________________
-// ques no 27 
-// Math.random();
-// game
+// ques no 34
+//  Random number between 0 and 1
 // --- ans ---------
+// let num = Math.random();
+// num = num * 2;
+// num = Math.floor(num);
+// console.log(num)
 
-// _____________________________________________________________________
-// ques no 27 
-// Math.random();
-// game
-// --- ans ---------
-
-
-// _____________________________________________________________________
-// ques no 27 
-// Math.random();
-// game
-// --- ans ---------
-
-
-// _____________________________________________________________________
-// ques no 27 
-// Math.random();
-// game
-// --- ans ---------
-
-// _____________________________________________________________________
-// ques no 27 
-// Math.random();
-// game
-// --- ans ---------
-
-
-// _____________________________________________________________________
-// ques no 27 
-// Math.random();
-// game
-// --- ans ---------
